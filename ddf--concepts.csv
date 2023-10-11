@@ -1,14 +1,9 @@
-concept        ,name                     ,concept_type ,domain
-population     ,Population               ,measure      ,      
-income         ,Income                   ,measure      ,      
-babies_per_w   ,Babies per woman         ,measure      ,      
-u5_total_deaths,Total deaths before age 5,measure      ,      
-u5mr           ,Child Mortality Rate     ,measure      ,      
-total_births   ,Total births             ,measure      ,      
-mean_income    ,Mean income              ,measure      ,      
-geo            ,Geo                      ,entity_domain,      
-name           ,Name                     ,string       ,      
-time           ,Time                     ,time         ,      
-decile         ,Decile                   ,entity_domain,      
-domain         ,Domain                   ,string       ,      
-               
+concept,name,concept_type,domain
+u5deaths,Total deaths before age 5,measure,
+u5mr,Child Mortality Rate,measure,
+mean_income,Mean income,measure,
+geo,Geo,entity_domain,
+name,Name,string,
+time,Time,time,
+decile,Decile,entity_domain,
+domain,Domain,string,

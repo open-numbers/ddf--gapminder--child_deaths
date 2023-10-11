@@ -1,0 +1,319 @@
+{
+    "name": "ddf--gapminder--child_deaths",
+    "language": {
+        "id": "en"
+    },
+    "title": "ddf--gapminder--child_deaths",
+    "description": "",
+    "author": "",
+    "license": "",
+    "created": "2023-10-02T21:03:22.161247+00:00",
+    "resources": [
+        {
+            "name": "ddf--concepts",
+            "path": "ddf--concepts.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "concept"
+                    },
+                    {
+                        "name": "name"
+                    },
+                    {
+                        "name": "concept_type"
+                    },
+                    {
+                        "name": "domain"
+                    }
+                ],
+                "primaryKey": "concept"
+            }
+        },
+        {
+            "name": "ddf--datapoints--u5mr--by--geo--time--decile",
+            "path": "ddf--datapoints--u5mr--by--geo--time--decile.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "geo"
+                    },
+                    {
+                        "name": "time"
+                    },
+                    {
+                        "name": "decile"
+                    },
+                    {
+                        "name": "u5mr"
+                    }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "time",
+                    "decile"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--u5mr--by--geo--time",
+            "path": "ddf--datapoints--u5mr--by--geo--time.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "geo"
+                    },
+                    {
+                        "name": "time"
+                    },
+                    {
+                        "name": "u5mr"
+                    }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "time"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--mean_income--by--geo--time--decile",
+            "path": "ddf--datapoints--mean_income--by--geo--time--decile.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "geo"
+                    },
+                    {
+                        "name": "time"
+                    },
+                    {
+                        "name": "decile"
+                    },
+                    {
+                        "name": "mean_income"
+                    }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "time",
+                    "decile"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--mean_income--by--geo--time",
+            "path": "ddf--datapoints--mean_income--by--geo--time.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "geo"
+                    },
+                    {
+                        "name": "time"
+                    },
+                    {
+                        "name": "mean_income"
+                    }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "time"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--u5deaths--by--geo--time--decile",
+            "path": "ddf--datapoints--u5deaths--by--geo--time--decile.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "geo"
+                    },
+                    {
+                        "name": "time"
+                    },
+                    {
+                        "name": "decile"
+                    },
+                    {
+                        "name": "u5deaths"
+                    }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "time",
+                    "decile"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--u5deaths--by--geo--time",
+            "path": "ddf--datapoints--u5deaths--by--geo--time.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "geo"
+                    },
+                    {
+                        "name": "time"
+                    },
+                    {
+                        "name": "u5deaths"
+                    }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "time"
+                ]
+            }
+        },
+        {
+            "name": "ddf--entities--decile",
+            "path": "ddf--entities--decile.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "decile"
+                    },
+                    {
+                        "name": "name"
+                    }
+                ],
+                "primaryKey": "decile"
+            }
+        },
+        {
+            "name": "ddf--entities--geo",
+            "path": "ddf--entities--geo.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "geo"
+                    },
+                    {
+                        "name": "name"
+                    }
+                ],
+                "primaryKey": "geo"
+            }
+        }
+    ],
+    "ddfSchema": {
+        "concepts": [
+            {
+                "primaryKey": [
+                    "concept"
+                ],
+                "value": "concept_type",
+                "resources": [
+                    "ddf--concepts"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "concept"
+                ],
+                "value": "domain",
+                "resources": [
+                    "ddf--concepts"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "concept"
+                ],
+                "value": "name",
+                "resources": [
+                    "ddf--concepts"
+                ]
+            }
+        ],
+        "entities": [
+            {
+                "primaryKey": [
+                    "decile"
+                ],
+                "value": "name",
+                "resources": [
+                    "ddf--entities--decile"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo"
+                ],
+                "value": "name",
+                "resources": [
+                    "ddf--entities--geo"
+                ]
+            }
+        ],
+        "datapoints": [
+            {
+                "primaryKey": [
+                    "decile",
+                    "geo",
+                    "time"
+                ],
+                "value": "u5mr",
+                "resources": [
+                    "ddf--datapoints--u5mr--by--geo--time--decile"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "time"
+                ],
+                "value": "u5mr",
+                "resources": [
+                    "ddf--datapoints--u5mr--by--geo--time"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "decile",
+                    "geo",
+                    "time"
+                ],
+                "value": "mean_income",
+                "resources": [
+                    "ddf--datapoints--mean_income--by--geo--time--decile"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "time"
+                ],
+                "value": "mean_income",
+                "resources": [
+                    "ddf--datapoints--mean_income--by--geo--time"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "decile",
+                    "geo",
+                    "time"
+                ],
+                "value": "u5deaths",
+                "resources": [
+                    "ddf--datapoints--u5deaths--by--geo--time--decile"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "time"
+                ],
+                "value": "u5deaths",
+                "resources": [
+                    "ddf--datapoints--u5deaths--by--geo--time"
+                ]
+            }
+        ],
+        "synonyms": []
+    }
+}
