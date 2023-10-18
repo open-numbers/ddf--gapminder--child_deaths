@@ -1,198 +1,198 @@
 geo,name
 afg,Afghanistan
-ago,Angola
 alb,Albania
+dza,Algeria
 and,Andorra
-are,United Arab Emirates
+ago,Angola
+atg,Antigua and Barbuda
 arg,Argentina
 arm,Armenia
-atg,Antigua and Barbuda
 aus,Australia
 aut,Austria
 aze,Azerbaijan
-bdi,Burundi
-bel,Belgium
-ben,Benin
-bfa,Burkina Faso
-bgd,Bangladesh
-bgr,Bulgaria
-bhr,Bahrain
 bhs,Bahamas
-bih,Bosnia and Herzegovina
-blr,Belarus
-blz,Belize
-bol,Bolivia
-bra,Brazil
+bhr,Bahrain
+bgd,Bangladesh
 brb,Barbados
-brn,Brunei
+blr,Belarus
+bel,Belgium
+blz,Belize
+ben,Benin
 btn,Bhutan
+bol,Bolivia
+bih,Bosnia and Herzegovina
 bwa,Botswana
-caf,Central African Republic
+bra,Brazil
+brn,Brunei
+bgr,Bulgaria
+bfa,Burkina Faso
+bdi,Burundi
+khm,Cambodia
+cmr,Cameroon
 can,Canada
-che,Switzerland
+cpv,Cape Verde
+caf,Central African Republic
+tcd,Chad
 chl,Chile
 chn,China
-civ,Cote d'Ivoire
-cmr,Cameroon
-cod,DR Congo
-cog,Congo
 col,Colombia
 com,Comoros
-cpv,Cape Verde
+cod,"Congo, Dem. Rep."
+cog,"Congo, Rep."
 cri,Costa Rica
+civ,Cote d'Ivoire
+hrv,Croatia
 cub,Cuba
 cyp,Cyprus
 cze,Czech Republic
-deu,Germany
+dnk,Denmark
 dji,Djibouti
 dma,Dominica
-dnk,Denmark
 dom,Dominican Republic
-dza,Algeria
 ecu,Ecuador
 egy,Egypt
+slv,El Salvador
+gnq,Equatorial Guinea
 eri,Eritrea
-esp,Spain
 est,Estonia
 eth,Ethiopia
-fin,Finland
 fji,Fiji
+fin,Finland
 fra,France
-fsm,"Micronesia, Fed. Sts."
 gab,Gabon
-gbr,United Kingdom
-geo,Georgia
-gha,Ghana
-gin,Guinea
 gmb,Gambia
-gnb,Guinea-Bissau
-gnq,Equatorial Guinea
+geo,Georgia
+deu,Germany
+gha,Ghana
 grc,Greece
 grd,Grenada
 gtm,Guatemala
+gin,Guinea
+gnb,Guinea-Bissau
 guy,Guyana
-hnd,Honduras
-hrv,Croatia
 hti,Haiti
+hos,Holy See
+hnd,Honduras
+hkg,"Hong Kong, China"
 hun,Hungary
-idn,Indonesia
+isl,Iceland
 ind,India
-irl,Ireland
+idn,Indonesia
 irn,Iran
 irq,Iraq
-isl,Iceland
+irl,Ireland
 isr,Israel
 ita,Italy
 jam,Jamaica
-jor,Jordan
 jpn,Japan
+jor,Jordan
 kaz,Kazakhstan
 ken,Kenya
-kgz,Kyrgyz Republic
-khm,Cambodia
 kir,Kiribati
-kna,St. Kitts and Nevis
-kor,Korea
 kwt,Kuwait
+kgz,Kyrgyz Republic
 lao,Lao
+lva,Latvia
 lbn,Lebanon
+lso,Lesotho
 lbr,Liberia
 lby,Libya
-lca,St. Lucia
 lie,Liechtenstein
-lka,Sri Lanka
-lso,Lesotho
 ltu,Lithuania
 lux,Luxembourg
-lva,Latvia
-mar,Morocco
-mda,Moldova
+mkd,"Macedonia, FYR"
 mdg,Madagascar
-mdv,Maldives
-mex,Mexico
-mhl,Marshall Islands
-mkd,Macedonia
-mli,Mali
-mlt,Malta
-mmr,Myanmar
-mne,Montenegro
-mng,Mongolia
-moz,Mozambique
-mrt,Mauritania
-mus,Mauritius
 mwi,Malawi
 mys,Malaysia
+mdv,Maldives
+mli,Mali
+mlt,Malta
+mhl,Marshall Islands
+mrt,Mauritania
+mus,Mauritius
+mex,Mexico
+fsm,"Micronesia, Fed. Sts."
+mda,Moldova
+mco,Monaco
+mng,Mongolia
+mne,Montenegro
+mar,Morocco
+moz,Mozambique
+mmr,Myanmar
 nam,Namibia
+nru,Nauru
+npl,Nepal
+nld,Netherlands
+nzl,New Zealand
+nic,Nicaragua
 ner,Niger
 nga,Nigeria
-nic,Nicaragua
-nld,Netherlands
+prk,North Korea
 nor,Norway
-npl,Nepal
-nru,Nauru
-nzl,New Zealand
 omn,Oman
 pak,Pakistan
+plw,Palau
+pse,Palestine
 pan,Panama
+png,Papua New Guinea
+pry,Paraguay
 per,Peru
 phl,Philippines
-plw,Palau
-png,Papua New Guinea
 pol,Poland
-prk,North Korea
 prt,Portugal
-pry,Paraguay
-pse,Palestine
 qat,Qatar
 rou,Romania
-rus,Russian Federation
+rus,Russia
 rwa,Rwanda
-sau,Saudi Arabia
-sdn,Sudan
-sen,Senegal
-sgp,Singapore
-slb,Solomon Islands
-sle,Sierra Leone
-slv,El Salvador
-som,Somalia
-srb,Serbia
-ssd,South Sudan
+wsm,Samoa
+smr,San Marino
 stp,Sao Tome and Principe
-sur,Suriname
-svk,Slovakia
-svn,Slovenia
-swe,Sweden
+sau,Saudi Arabia
+sen,Senegal
+srb,Serbia
 syc,Seychelles
+sle,Sierra Leone
+sgp,Singapore
+svk,Slovak Republic
+svn,Slovenia
+slb,Solomon Islands
+som,Somalia
+zaf,South Africa
+kor,South Korea
+ssd,South Sudan
+esp,Spain
+lka,Sri Lanka
+kna,St. Kitts and Nevis
+lca,St. Lucia
+vct,St. Vincent and the Grenadines
+sdn,Sudan
+sur,Suriname
+swz,Swaziland
+swe,Sweden
+che,Switzerland
 syr,Syria
-tcd,Chad
-tgo,Togo
-tha,Thailand
+twn,Taiwan
 tjk,Tajikistan
-tkm,Turkmenistan
+tza,Tanzania
+tha,Thailand
 tls,Timor-Leste
+tgo,Togo
 ton,Tonga
 tto,Trinidad and Tobago
 tun,Tunisia
 tur,Turkey
+tkm,Turkmenistan
 tuv,Tuvalu
-tza,Tanzania
 uga,Uganda
 ukr,Ukraine
+are,United Arab Emirates
+gbr,United Kingdom
+usa,United States
 ury,Uruguay
-usa,USA
 uzb,Uzbekistan
-vct,St. Vincent and the Grenadines
-ven,Venezuela
-vnm,Viet Nam
 vut,Vanuatu
-wsm,Samoa
+ven,Venezuela
+vnm,Vietnam
 yem,Yemen
-zaf,South Africa
 zmb,Zambia
 zwe,Zimbabwe
-hos,Holy See
-smr,San Marino
-twn,Taiwan
-hkg,Hong Kong
-swz,Eswatini
-mco,Macao
