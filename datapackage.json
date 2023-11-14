@@ -171,6 +171,52 @@
       }
     },
     {
+      "path": "ddf--datapoints--pop--by--geo--time--decile.csv",
+      "name": "pop--by--geo--time--decile",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "time"
+          },
+          {
+            "name": "decile"
+          },
+          {
+            "name": "pop"
+          }
+        ],
+        "primaryKey": [
+          "geo",
+          "time",
+          "decile"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--pop--by--geo--time.csv",
+      "name": "pop--by--geo--time",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "time"
+          },
+          {
+            "name": "pop"
+          }
+        ],
+        "primaryKey": [
+          "geo",
+          "time"
+        ]
+      }
+    },
+    {
       "path": "ddf--entities--decile.csv",
       "name": "decile",
       "schema": {
@@ -238,6 +284,17 @@
       },
       {
         "primaryKey": [
+          "decile",
+          "geo",
+          "time"
+        ],
+        "value": "pop",
+        "resources": [
+          "pop--by--geo--time--decile"
+        ]
+      },
+      {
+        "primaryKey": [
           "geo",
           "time"
         ],
@@ -264,6 +321,16 @@
         "value": "u5mr",
         "resources": [
           "u5mr--by--geo--time"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "time"
+        ],
+        "value": "pop",
+        "resources": [
+          "pop--by--geo--time"
         ]
       }
     ],

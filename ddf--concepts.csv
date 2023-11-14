@@ -1,6 +1,7 @@
 concept,name,concept_type,domain
 u5deaths,Total deaths before age 5,measure,
 u5mr,Child Mortality Rate,measure,
+pop,Population,measure,
 mean_income,Mean income,measure,
 geo,Geo,entity_domain,
 name,Name,string,
